@@ -313,3 +313,7 @@ for col in bostonWithDummyDataDF.columns:
 # MAGIC fig, ax = plt.subplots()
 # MAGIC sns.heatmap(pandasDF)
 # MAGIC display(fig.figure)
+
+# COMMAND ----------
+
+print("test")
