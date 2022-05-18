@@ -88,7 +88,7 @@ bostonDF = (spark.read
   .option("inferSchema", True)
   .csv("/mnt/training/bostonhousing/bostonhousing/bostonhousing.csv")
 )
-
+print("apple")
 display(bostonDF)
 
 # COMMAND ----------
